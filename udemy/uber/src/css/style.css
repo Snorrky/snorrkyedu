@@ -1,0 +1,83 @@
+* {
+    font-family: Roboto;
+}
+
+nav {
+    background: #212121;
+    height: 50px;
+}
+
+.menu {
+    padding: 13px 70px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu .menu_item {
+    border-right: 3px dotted #000;
+    padding-right: 28px;
+}
+
+.menu .menu_link {
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.subheader {
+    height: 87px;
+    background-color: rgba(0,0,0,0.6);
+    
+}
+
+.subheader .subheader_logo {
+    max-width: 100%;
+    display: block;
+    margin-top: 16px;
+}
+
+.subheader .subheader_text {
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 13px;
+    align-items: center;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.subheader .subheader_callus {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: right;
+    color: #FFFFFF;
+    display: block;
+    margin-top: 21px;
+}
+
+.subheader_phone a{
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 6px;
+}
+
+.callback_btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
