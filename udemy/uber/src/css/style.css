@@ -172,24 +172,24 @@ nav {
     align-items: center;
     margin-top: 35px;
 }
-.advantages .advantages_desc {
+.advantages .advantages_item .advantages_desc {
     width: 343px;
 }
 
-.advantages .desc_title {
+.advantages .advantages_item .desc_title {
     font-size: 17px;
     line-height: 21px;
     color: #1EACC7;
     font-weight: 400;
 }
 
-.advantages .desc_text {
+.advantages .advantages_item .desc_text {
     font-size: 15px;
     font-weight: 300;
     color: #202020;
     line-height: 21px;
 }
-.advantages .advantages_img {
+.advantages .advantages_item .advantages_img {
     width: 116px;
     height: 116px;
     background: #1EACC7;
