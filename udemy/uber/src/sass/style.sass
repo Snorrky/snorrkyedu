@@ -154,6 +154,7 @@ nav
 	color: $color_white
 	font-size: 11px
 	font-weight: 300
+	text-align: center
 	text-transform: uppercase
 	z-index: 2
 	&_white 
@@ -260,6 +261,7 @@ nav
 		font-size: 22px
 		line-height: 24px
 		color: #1CA8C3
+		
 	&_list
 		list-style-type: none
 		padding-left: 50px
@@ -280,9 +282,96 @@ nav
 				width: 21px
 				height: 20px
 				background: url('../img/blue_bullet.png') center center/cover no-repeat
+			
 	&_description
-		font-weight: 300;
-		font-size: 17px;
-		line-height: 24px;
-		color: #1CA8C3;
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		color: #1CA8C3
+	.warning
+		.require_title
+			color: $color_pink	
+		.require_list
+			li::before
+				background: url('../img/red_bullet.png') center center/cover no-repeat
 
+.world
+	min-height: 720px
+	padding: 50px 0 
+	background: url('../img/world_bg.png') center center/cover no-repeat
+	&_all_cities 
+		display: block
+		text-align: center
+		margin-top: 490px
+		font-size: 15px
+		text-transform: uppercase
+		color: #1FBAD6
+		&:hover 
+			text-decoration: none
+footer
+	padding: 14px 23px 39px 23px
+	a 
+		&:hover 
+			text-decoration: none
+.footer
+	&_divider
+		margin: 0 auto
+		margin-top: 13px
+		width: 301px
+		height: 7px
+		background-color: #1FBAD6
+	&_wrapper
+		display: flex
+		justify-content: space-between
+		align-items: flex-start
+		padding-top: 32px
+	&_wrapper > div 
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+	&_social
+		display: flex
+		justify-content: space-between
+		width: 160px
+		
+		&_item
+			display: flex
+			justify-content: center
+			align-items: center
+			background-color: #070716
+			width: 32px
+			height: 32px
+			border-radius: 100%
+			margin-right: 0 4px
+	&_links
+		width: 390px
+		margin: 0 auto
+		&_main
+			margin: 0 auto
+			display: flex
+			justify-content: space-between
+			padding: 0 10px
+			a
+				font-weight: 300
+				font-size: 15px
+				text-transform: uppercase
+				color: #070716
+		&_sub 
+			display: flex
+			justify-content: space-between
+			margin-top: 10px
+			a
+				font-weight: 300;
+				font-size: 11px;
+				text-transform: uppercase;
+				color: #999999;
+		&_lang
+			display: block
+			margin: 0 auto
+			text-align: center
+			font-size: 11px
+			font-weight: 400
+			text-transform: uppercase
+			color: #1FBAD6
+			margin-top: 19px
