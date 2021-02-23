@@ -1,0 +1,144 @@
+@media (max-width: 1200px)
+    .menu
+        &_item
+            padding-right: 20px
+        &_link
+            font-size: 13px
+    .promo 
+	    &_header
+            font-size: 50px
+    .advantages
+        &_item
+            align-items: flex-start
+        &_desc
+            width: 300px
+@media (max-width: 991px)
+    .menu
+        &_item
+            padding-right: 8px
+        &_link
+            font-size: 10px
+    .subheader
+        &_logo 
+            img
+                width: 100%
+        &_text
+            font-size: 11px
+        &_phone
+            font-size: 19px
+        .callback_btn
+            margin-top: 21px
+            height: 40px
+            width: 100%
+    .promo 
+        &_header
+            font-size: 40px
+        &_subheader
+            font-size: 30px
+
+    .title
+        font-size: 36px
+    .advantages
+        &_item
+            flex-direction: column
+            align-items: center
+        &_desc
+            margin-top: 20px
+@media (max-width: 767px)
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0,0.8)
+        transition: all 0.6s
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin-top: 20px
+            a
+                font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: 10px
+        top: 50%
+        transform: translateY(-50%)
+        width: 26px
+        height: 12px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            background-color: #ffffff
+            margin-bottom: 2px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .subheader
+        .callback_btn
+            display: block
+            margin-top: 0
+            border: none
+            width: 200px
+            height: 35px
+            margin: 0 auto
+        &_phone
+            display: block
+            margin-top: 10px
+            font-family: Roboto
+            font-weight: normal
+            font-size: 16px
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+
+    .promo
+        &_header
+            line-height: 45px
+
+@media (max-width: 575px)
+    .subheader
+        height: 62px
+        &_text
+            display: none
+        &_logo
+            margin-top: 16px
+        &_phone
+            font-weight: normal
+            font-size: 12px
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
+            margin-top: 5px
+        .callback_btn
+            width: 110px
+            height: 22px
+            margin-top: 5px
+            background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
+            border: 3px solid rgba(0, 0, 0, 0.07)
+            box-shadow: inset 0px -3px 0px 3px rgba(0, 0, 0, 0.12)
+            border-radius: 4px;
+            font-weight: normal
+            font-size: 10px
+            text-align: center
+            text-transform: uppercase
+            color: #FFFFFF
